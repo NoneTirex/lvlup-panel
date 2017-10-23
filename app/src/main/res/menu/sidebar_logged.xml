@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Account">
+        <menu>
+            <item
+                    android:id="@+id/sidebar_action_logout"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Sign Out"/>
+        </menu>
+    </item>
+    <item android:title="Menu">
+        <menu>
+            <group>
+                <item
+                        android:id="@+id/sidebar_action_services"
+                        android:icon="@drawable/ic_menu_share"
+                        android:title="Services"/>
+            </group>
+        </menu>
+    </item>
+</menu>
